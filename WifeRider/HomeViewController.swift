@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  HomeViewController.swift
 //  WifeRider
 //
 //  Created by 何品泰高 on 2018/1/16.
@@ -8,14 +8,24 @@
 
 import UIKit
 import MapKit
-class ViewController: UIViewController,MKMapViewDelegate{
+class HomeViewController: UIViewController,MKMapViewDelegate{
 
     @IBOutlet weak var mapView: MKMapView!
     @IBOutlet weak var actionBtn: RoundedShadowButton!
     
+    var delegate: CenterViewControllerDelegate?
+    
     @IBAction func actionBtnWasPressed(_ sender: Any) {
         actionBtn.animateButton(shouldLoad: true, withMessage: nil)
     }
+    
+    @IBAction func PressMenu(_ sender: Any) {
+        delegate?.toggleLeftPanel()
+        
+    }
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         mapView.delegate = self
