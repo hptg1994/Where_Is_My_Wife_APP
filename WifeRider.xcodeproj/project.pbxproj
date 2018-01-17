@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A914F182200EFBE8001EB318 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A914F181200EFBE8001EB318 /* AppDelegate.swift */; };
+		A914F184200EFBE8001EB318 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A914F183200EFBE8001EB318 /* ViewController.swift */; };
+		A914F187200EFBE8001EB318 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A914F185200EFBE8001EB318 /* Main.storyboard */; };
+		A914F189200EFBE8001EB318 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A914F188200EFBE8001EB318 /* Assets.xcassets */; };
+		A914F18C200EFBE8001EB318 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A914F18A200EFBE8001EB318 /* LaunchScreen.storyboard */; };
+		A9A80218200F270600EA1629 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A80217200F270600EA1629 /* GradientView.swift */; };
+		A9A8021A200F2C9200EA1629 /* RoundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A80219200F2C9200EA1629 /* RoundImageView.swift */; };
+		A9A8021C200F2DA400EA1629 /* RoundedShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A8021B200F2DA400EA1629 /* RoundedShadowView.swift */; };
+		A9A8021E200F2F2300EA1629 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A8021D200F2F2300EA1629 /* CircleView.swift */; };
+		A9A80220200F328800EA1629 /* RoundedShadowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A8021F200F328800EA1629 /* RoundedShadowButton.swift */; };
+		B1C381D2871368462131A5A0 /* Pods_WifeRider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AED007EEFAF3F6674D7F299F /* Pods_WifeRider.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2690CB84F1EF42C08ED479D0 /* Pods-WifeRider.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WifeRider.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WifeRider/Pods-WifeRider.debug.xcconfig"; sourceTree = "<group>"; };
+		A914F17E200EFBE8001EB318 /* WifeRider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WifeRider.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A914F181200EFBE8001EB318 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A914F183200EFBE8001EB318 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A914F186200EFBE8001EB318 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A914F188200EFBE8001EB318 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A914F18B200EFBE8001EB318 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A914F18D200EFBE8001EB318 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9A80217200F270600EA1629 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		A9A80219200F2C9200EA1629 /* RoundImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundImageView.swift; sourceTree = "<group>"; };
+		A9A8021B200F2DA400EA1629 /* RoundedShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowView.swift; sourceTree = "<group>"; };
+		A9A8021D200F2F2300EA1629 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		A9A8021F200F328800EA1629 /* RoundedShadowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowButton.swift; sourceTree = "<group>"; };
+		AAC8311D92C1B4AB66110FE3 /* Pods-WifeRider.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WifeRider.release.xcconfig"; path = "Pods/Target Support Files/Pods-WifeRider/Pods-WifeRider.release.xcconfig"; sourceTree = "<group>"; };
+		AED007EEFAF3F6674D7F299F /* Pods_WifeRider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WifeRider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A914F17B200EFBE8001EB318 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1C381D2871368462131A5A0 /* Pods_WifeRider.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A808122260C047B93E2A72AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AED007EEFAF3F6674D7F299F /* Pods_WifeRider.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A914F175200EFBE8001EB318 = {
+			isa = PBXGroup;
+			children = (
+				A914F180200EFBE8001EB318 /* WifeRider */,
+				A914F17F200EFBE8001EB318 /* Products */,
+				E92A77B79D86A4725AD290FF /* Pods */,
+				A808122260C047B93E2A72AF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A914F17F200EFBE8001EB318 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A914F17E200EFBE8001EB318 /* WifeRider.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A914F180200EFBE8001EB318 /* WifeRider */ = {
+			isa = PBXGroup;
+			children = (
+				A95236AB200F0D2D00F2931E /* Model */,
+				A95236A9200F0D1A00F2931E /* Controller */,
+				A95236A8200F0D0F00F2931E /* View */,
+				A95236A7200F0CFA00F2931E /* Support Files */,
+				A914F18D200EFBE8001EB318 /* Info.plist */,
+			);
+			path = WifeRider;
+			sourceTree = "<group>";
+		};
+		A95236A7200F0CFA00F2931E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A914F181200EFBE8001EB318 /* AppDelegate.swift */,
+				A914F188200EFBE8001EB318 /* Assets.xcassets */,
+				A914F18A200EFBE8001EB318 /* LaunchScreen.storyboard */,
+			);
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
+		A95236A8200F0D0F00F2931E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A914F185200EFBE8001EB318 /* Main.storyboard */,
+				A9A80217200F270600EA1629 /* GradientView.swift */,
+				A9A80219200F2C9200EA1629 /* RoundImageView.swift */,
+				A9A8021B200F2DA400EA1629 /* RoundedShadowView.swift */,
+				A9A8021D200F2F2300EA1629 /* CircleView.swift */,
+				A9A8021F200F328800EA1629 /* RoundedShadowButton.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A95236A9200F0D1A00F2931E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A914F183200EFBE8001EB318 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A95236AB200F0D2D00F2931E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E92A77B79D86A4725AD290FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2690CB84F1EF42C08ED479D0 /* Pods-WifeRider.debug.xcconfig */,
+				AAC8311D92C1B4AB66110FE3 /* Pods-WifeRider.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A914F17D200EFBE8001EB318 /* WifeRider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A914F190200EFBE8001EB318 /* Build configuration list for PBXNativeTarget "WifeRider" */;
+			buildPhases = (
+				570112539E4437D1009273B5 /* [CP] Check Pods Manifest.lock */,
+				A914F17A200EFBE8001EB318 /* Sources */,
+				A914F17B200EFBE8001EB318 /* Frameworks */,
+				A914F17C200EFBE8001EB318 /* Resources */,
+				15B22785EF16CE6C09F22AA6 /* [CP] Embed Pods Frameworks */,
+				AD399774E1A1D708BC28ABBE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WifeRider;
+			productName = WifeRider;
+			productReference = A914F17E200EFBE8001EB318 /* WifeRider.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A914F176200EFBE8001EB318 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "何品泰高";
+				TargetAttributes = {
+					A914F17D200EFBE8001EB318 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A914F179200EFBE8001EB318 /* Build configuration list for PBXProject "WifeRider" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A914F175200EFBE8001EB318;
+			productRefGroup = A914F17F200EFBE8001EB318 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A914F17D200EFBE8001EB318 /* WifeRider */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A914F17C200EFBE8001EB318 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A914F18C200EFBE8001EB318 /* LaunchScreen.storyboard in Resources */,
+				A914F189200EFBE8001EB318 /* Assets.xcassets in Resources */,
+				A914F187200EFBE8001EB318 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15B22785EF16CE6C09F22AA6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WifeRider/Pods-WifeRider-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/RevealingSplashView/RevealingSplashView.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RevealingSplashView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WifeRider/Pods-WifeRider-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		570112539E4437D1009273B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WifeRider-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD399774E1A1D708BC28ABBE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WifeRider/Pods-WifeRider-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A914F17A200EFBE8001EB318 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9A80220200F328800EA1629 /* RoundedShadowButton.swift in Sources */,
+				A9A8021E200F2F2300EA1629 /* CircleView.swift in Sources */,
+				A914F184200EFBE8001EB318 /* ViewController.swift in Sources */,
+				A9A8021A200F2C9200EA1629 /* RoundImageView.swift in Sources */,
+				A9A8021C200F2DA400EA1629 /* RoundedShadowView.swift in Sources */,
+				A914F182200EFBE8001EB318 /* AppDelegate.swift in Sources */,
+				A9A80218200F270600EA1629 /* GradientView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A914F185200EFBE8001EB318 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A914F186200EFBE8001EB318 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A914F18A200EFBE8001EB318 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A914F18B200EFBE8001EB318 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A914F18E200EFBE8001EB318 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A914F18F200EFBE8001EB318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A914F191200EFBE8001EB318 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2690CB84F1EF42C08ED479D0 /* Pods-WifeRider.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7S92LV4W54;
+				INFOPLIST_FILE = WifeRider/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hptg.stevens.edu.WifeRider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A914F192200EFBE8001EB318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAC8311D92C1B4AB66110FE3 /* Pods-WifeRider.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7S92LV4W54;
+				INFOPLIST_FILE = WifeRider/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hptg.stevens.edu.WifeRider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A914F179200EFBE8001EB318 /* Build configuration list for PBXProject "WifeRider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A914F18E200EFBE8001EB318 /* Debug */,
+				A914F18F200EFBE8001EB318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A914F190200EFBE8001EB318 /* Build configuration list for PBXNativeTarget "WifeRider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A914F191200EFBE8001EB318 /* Debug */,
+				A914F192200EFBE8001EB318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A914F176200EFBE8001EB318 /* Project object */;
+}
