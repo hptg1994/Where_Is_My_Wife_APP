@@ -15,6 +15,9 @@
 		A93ECBF6200FBE5400B6996F /* LeftSidePanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93ECBF5200FBE5400B6996F /* LeftSidePanelViewController.swift */; };
 		A93ECBFB200FBEED00B6996F /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93ECBFA200FBEED00B6996F /* ContainerViewController.swift */; };
 		A93ECBFE200FC2E100B6996F /* CenterViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93ECBFD200FC2E100B6996F /* CenterViewControllerDelegate.swift */; };
+		A958A0F62010E944000F7B0F /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A958A0F52010E944000F7B0F /* UIViewExtension.swift */; };
+		A958A0F92010F66B000F7B0F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A958A0F82010F66B000F7B0F /* LoginViewController.swift */; };
+		A958A0FB2010FC66000F7B0F /* RoundedCornerTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A958A0FA2010FC66000F7B0F /* RoundedCornerTextField.swift */; };
 		A9A80218200F270600EA1629 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A80217200F270600EA1629 /* GradientView.swift */; };
 		A9A8021A200F2C9200EA1629 /* RoundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A80219200F2C9200EA1629 /* RoundImageView.swift */; };
 		A9A8021C200F2DA400EA1629 /* RoundedShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A8021B200F2DA400EA1629 /* RoundedShadowView.swift */; };
@@ -35,6 +38,9 @@
 		A93ECBF5200FBE5400B6996F /* LeftSidePanelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftSidePanelViewController.swift; sourceTree = "<group>"; };
 		A93ECBFA200FBEED00B6996F /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
 		A93ECBFD200FC2E100B6996F /* CenterViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterViewControllerDelegate.swift; sourceTree = "<group>"; };
+		A958A0F52010E944000F7B0F /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		A958A0F82010F66B000F7B0F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A958A0FA2010FC66000F7B0F /* RoundedCornerTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCornerTextField.swift; sourceTree = "<group>"; };
 		A9A80217200F270600EA1629 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		A9A80219200F2C9200EA1629 /* RoundImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundImageView.swift; sourceTree = "<group>"; };
 		A9A8021B200F2DA400EA1629 /* RoundedShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowView.swift; sourceTree = "<group>"; };
@@ -85,6 +91,7 @@
 		A914F180200EFBE8001EB318 /* WifeRider */ = {
 			isa = PBXGroup;
 			children = (
+				A958A0F42010E79A000F7B0F /* Extensions */,
 				A93ECBFC200FC2BA00B6996F /* Protocols */,
 				A95236AB200F0D2D00F2931E /* Model */,
 				A95236A9200F0D1A00F2931E /* Controller */,
@@ -135,6 +142,7 @@
 		A95236A8200F0D0F00F2931E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A958A0F72010F647000F7B0F /* Login/Signup */,
 				A93ECBF9200FBE8200B6996F /* LeftSideMenu */,
 				A93ECBF8200FBE6C00B6996F /* Home */,
 				A914F185200EFBE8001EB318 /* Main.storyboard */,
@@ -157,6 +165,23 @@
 			children = (
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		A958A0F42010E79A000F7B0F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A958A0F52010E944000F7B0F /* UIViewExtension.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		A958A0F72010F647000F7B0F /* Login/Signup */ = {
+			isa = PBXGroup;
+			children = (
+				A958A0F82010F66B000F7B0F /* LoginViewController.swift */,
+				A958A0FA2010FC66000F7B0F /* RoundedCornerTextField.swift */,
+			);
+			name = Login/Signup;
 			sourceTree = "<group>";
 		};
 		E92A77B79D86A4725AD290FF /* Pods */ = {
@@ -305,14 +330,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A958A0F92010F66B000F7B0F /* LoginViewController.swift in Sources */,
 				A9A80220200F328800EA1629 /* RoundedShadowButton.swift in Sources */,
 				A93ECBF6200FBE5400B6996F /* LeftSidePanelViewController.swift in Sources */,
+				A958A0F62010E944000F7B0F /* UIViewExtension.swift in Sources */,
 				A9A8021E200F2F2300EA1629 /* CircleView.swift in Sources */,
 				A914F184200EFBE8001EB318 /* HomeViewController.swift in Sources */,
 				A93ECBFE200FC2E100B6996F /* CenterViewControllerDelegate.swift in Sources */,
 				A9A8021A200F2C9200EA1629 /* RoundImageView.swift in Sources */,
 				A9A8021C200F2DA400EA1629 /* RoundedShadowView.swift in Sources */,
 				A914F182200EFBE8001EB318 /* AppDelegate.swift in Sources */,
+				A958A0FB2010FC66000F7B0F /* RoundedCornerTextField.swift in Sources */,
 				A93ECBFB200FBEED00B6996F /* ContainerViewController.swift in Sources */,
 				A9A80218200F270600EA1629 /* GradientView.swift in Sources */,
 			);
