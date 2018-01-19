@@ -23,6 +23,8 @@
 		A9A8021C200F2DA400EA1629 /* RoundedShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A8021B200F2DA400EA1629 /* RoundedShadowView.swift */; };
 		A9A8021E200F2F2300EA1629 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A8021D200F2F2300EA1629 /* CircleView.swift */; };
 		A9A80220200F328800EA1629 /* RoundedShadowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A8021F200F328800EA1629 /* RoundedShadowButton.swift */; };
+		A9C5897320123F9E00C99652 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A9C5897220123F9E00C99652 /* GoogleService-Info.plist */; };
+		A9C589762012420000C99652 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C589752012420000C99652 /* DataService.swift */; };
 		B1C381D2871368462131A5A0 /* Pods_WifeRider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AED007EEFAF3F6674D7F299F /* Pods_WifeRider.framework */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +48,8 @@
 		A9A8021B200F2DA400EA1629 /* RoundedShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowView.swift; sourceTree = "<group>"; };
 		A9A8021D200F2F2300EA1629 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		A9A8021F200F328800EA1629 /* RoundedShadowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowButton.swift; sourceTree = "<group>"; };
+		A9C5897220123F9E00C99652 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A9C589752012420000C99652 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		AAC8311D92C1B4AB66110FE3 /* Pods-WifeRider.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WifeRider.release.xcconfig"; path = "Pods/Target Support Files/Pods-WifeRider/Pods-WifeRider.release.xcconfig"; sourceTree = "<group>"; };
 		AED007EEFAF3F6674D7F299F /* Pods_WifeRider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WifeRider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -98,6 +102,7 @@
 				A95236A8200F0D0F00F2931E /* View */,
 				A95236A7200F0CFA00F2931E /* Support Files */,
 				A914F18D200EFBE8001EB318 /* Info.plist */,
+				A9C5897220123F9E00C99652 /* GoogleService-Info.plist */,
 			);
 			path = WifeRider;
 			sourceTree = "<group>";
@@ -156,6 +161,7 @@
 				A914F183200EFBE8001EB318 /* HomeViewController.swift */,
 				A93ECBF5200FBE5400B6996F /* LeftSidePanelViewController.swift */,
 				A93ECBFA200FBEED00B6996F /* ContainerViewController.swift */,
+				A958A0F82010F66B000F7B0F /* LoginViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -163,6 +169,7 @@
 		A95236AB200F0D2D00F2931E /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A9C58974201241E900C99652 /* Services */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -178,10 +185,17 @@
 		A958A0F72010F647000F7B0F /* Login/Signup */ = {
 			isa = PBXGroup;
 			children = (
-				A958A0F82010F66B000F7B0F /* LoginViewController.swift */,
 				A958A0FA2010FC66000F7B0F /* RoundedCornerTextField.swift */,
 			);
 			name = Login/Signup;
+			sourceTree = "<group>";
+		};
+		A9C58974201241E900C99652 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A9C589752012420000C99652 /* DataService.swift */,
+			);
+			name = Services;
 			sourceTree = "<group>";
 		};
 		E92A77B79D86A4725AD290FF /* Pods */ = {
@@ -256,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A914F18C200EFBE8001EB318 /* LaunchScreen.storyboard in Resources */,
+				A9C5897320123F9E00C99652 /* GoogleService-Info.plist in Resources */,
 				A914F189200EFBE8001EB318 /* Assets.xcassets in Resources */,
 				A914F187200EFBE8001EB318 /* Main.storyboard in Resources */,
 			);
@@ -331,6 +346,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A958A0F92010F66B000F7B0F /* LoginViewController.swift in Sources */,
+				A9C589762012420000C99652 /* DataService.swift in Sources */,
 				A9A80220200F328800EA1629 /* RoundedShadowButton.swift in Sources */,
 				A93ECBF6200FBE5400B6996F /* LeftSidePanelViewController.swift in Sources */,
 				A958A0F62010E944000F7B0F /* UIViewExtension.swift in Sources */,
