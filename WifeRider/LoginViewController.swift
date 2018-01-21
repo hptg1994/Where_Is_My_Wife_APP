@@ -49,7 +49,7 @@
                                     let userData = ["provider":user.providerID] as [String:Any]
                                     DataService.instance.createFirebaseDBUser(uid: user.uid, userData: userData, isDriver: false)
                                 }else{
-                                    let userData = ["provider":user.providerID,"userisDriver":true,"isPickupModeEnable":false,"driverIsOnTrips":false] as [String : Any]
+                                    let userData = ["provider":user.providerID,"userisDriver":true,"isPickupModeEnabled":false,"driverIsOnTrips":false] as [String : Any]
                                     DataService.instance.createFirebaseDBUser(uid: user.uid, userData: userData, isDriver: true)
                                 }
                             }
