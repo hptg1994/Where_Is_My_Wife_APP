@@ -41,5 +41,13 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>HTCHHR needs your location so our drivers can find you.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>HTCHHR needs your location so our drivers can find you.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>HTCHHR needs your location so our drivers can find you.</string>
+	<key>NSLocationUsageDescription</key>
+	<string>HTCHHR needs your location so our drivers can find you.</string>
 </dict>
 </plist>
