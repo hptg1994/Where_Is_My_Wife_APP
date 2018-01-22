@@ -12,6 +12,7 @@
 		A914F187200EFBE8001EB318 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A914F185200EFBE8001EB318 /* Main.storyboard */; };
 		A914F189200EFBE8001EB318 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A914F188200EFBE8001EB318 /* Assets.xcassets */; };
 		A914F18C200EFBE8001EB318 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A914F18A200EFBE8001EB318 /* LaunchScreen.storyboard */; };
+		A9377B03201645950040E101 /* UpdateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9377B02201645950040E101 /* UpdateService.swift */; };
 		A93ECBF6200FBE5400B6996F /* LeftSidePanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93ECBF5200FBE5400B6996F /* LeftSidePanelViewController.swift */; };
 		A93ECBFB200FBEED00B6996F /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93ECBFA200FBEED00B6996F /* ContainerViewController.swift */; };
 		A93ECBFE200FC2E100B6996F /* CenterViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93ECBFD200FC2E100B6996F /* CenterViewControllerDelegate.swift */; };
@@ -37,6 +38,7 @@
 		A914F188200EFBE8001EB318 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A914F18B200EFBE8001EB318 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A914F18D200EFBE8001EB318 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9377B02201645950040E101 /* UpdateService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateService.swift; sourceTree = "<group>"; };
 		A93ECBF5200FBE5400B6996F /* LeftSidePanelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftSidePanelViewController.swift; sourceTree = "<group>"; };
 		A93ECBFA200FBEED00B6996F /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
 		A93ECBFD200FC2E100B6996F /* CenterViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterViewControllerDelegate.swift; sourceTree = "<group>"; };
@@ -169,7 +171,8 @@
 		A95236AB200F0D2D00F2931E /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				A9C58974201241E900C99652 /* Services */,
+				A9C589752012420000C99652 /* DataService.swift */,
+				A9377B02201645950040E101 /* UpdateService.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -188,14 +191,6 @@
 				A958A0FA2010FC66000F7B0F /* RoundedCornerTextField.swift */,
 			);
 			name = Login/Signup;
-			sourceTree = "<group>";
-		};
-		A9C58974201241E900C99652 /* Services */ = {
-			isa = PBXGroup;
-			children = (
-				A9C589752012420000C99652 /* DataService.swift */,
-			);
-			name = Services;
 			sourceTree = "<group>";
 		};
 		E92A77B79D86A4725AD290FF /* Pods */ = {
@@ -354,6 +349,7 @@
 				A914F184200EFBE8001EB318 /* HomeViewController.swift in Sources */,
 				A93ECBFE200FC2E100B6996F /* CenterViewControllerDelegate.swift in Sources */,
 				A9A8021A200F2C9200EA1629 /* RoundImageView.swift in Sources */,
+				A9377B03201645950040E101 /* UpdateService.swift in Sources */,
 				A9A8021C200F2DA400EA1629 /* RoundedShadowView.swift in Sources */,
 				A914F182200EFBE8001EB318 /* AppDelegate.swift in Sources */,
 				A958A0FB2010FC66000F7B0F /* RoundedCornerTextField.swift in Sources */,

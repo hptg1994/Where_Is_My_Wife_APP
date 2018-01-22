@@ -73,3 +73,11 @@ extension HomeViewController:CLLocationManagerDelegate {
         }
     }
 }
+
+extension HomeViewController{
+    func mapView(_ mapView: MKMapView, didUpdate userLocation: MKUserLocation) {
+        print(userLocation.coordinate)
+        UpdateService.instance.updateUserLocation(withCoordinate: userLocation.coordinate)
+        UpdateService.instance.updateDriverLocation(withCoordinate: userLocation.coordinate)
+    }
+}
