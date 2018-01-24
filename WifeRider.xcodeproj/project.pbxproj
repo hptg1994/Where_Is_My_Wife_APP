@@ -16,6 +16,7 @@
 		A93ECBF6200FBE5400B6996F /* LeftSidePanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93ECBF5200FBE5400B6996F /* LeftSidePanelViewController.swift */; };
 		A93ECBFB200FBEED00B6996F /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93ECBFA200FBEED00B6996F /* ContainerViewController.swift */; };
 		A93ECBFE200FC2E100B6996F /* CenterViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93ECBFD200FC2E100B6996F /* CenterViewControllerDelegate.swift */; };
+		A94A6D7C2018D3B4005D4BE0 /* DriverAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94A6D7B2018D3B4005D4BE0 /* DriverAnnotation.swift */; };
 		A958A0F62010E944000F7B0F /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A958A0F52010E944000F7B0F /* UIViewExtension.swift */; };
 		A958A0F92010F66B000F7B0F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A958A0F82010F66B000F7B0F /* LoginViewController.swift */; };
 		A958A0FB2010FC66000F7B0F /* RoundedCornerTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A958A0FA2010FC66000F7B0F /* RoundedCornerTextField.swift */; };
@@ -42,6 +43,7 @@
 		A93ECBF5200FBE5400B6996F /* LeftSidePanelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftSidePanelViewController.swift; sourceTree = "<group>"; };
 		A93ECBFA200FBEED00B6996F /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
 		A93ECBFD200FC2E100B6996F /* CenterViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterViewControllerDelegate.swift; sourceTree = "<group>"; };
+		A94A6D7B2018D3B4005D4BE0 /* DriverAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverAnnotation.swift; sourceTree = "<group>"; };
 		A958A0F52010E944000F7B0F /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		A958A0F82010F66B000F7B0F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		A958A0FA2010FC66000F7B0F /* RoundedCornerTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCornerTextField.swift; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 				A9A8021B200F2DA400EA1629 /* RoundedShadowView.swift */,
 				A9A8021D200F2F2300EA1629 /* CircleView.swift */,
 				A9A8021F200F328800EA1629 /* RoundedShadowButton.swift */,
+				A94A6D7B2018D3B4005D4BE0 /* DriverAnnotation.swift */,
 			);
 			name = Home;
 			sourceTree = "<group>";
@@ -348,6 +351,7 @@
 				A9A8021E200F2F2300EA1629 /* CircleView.swift in Sources */,
 				A914F184200EFBE8001EB318 /* HomeViewController.swift in Sources */,
 				A93ECBFE200FC2E100B6996F /* CenterViewControllerDelegate.swift in Sources */,
+				A94A6D7C2018D3B4005D4BE0 /* DriverAnnotation.swift in Sources */,
 				A9A8021A200F2C9200EA1629 /* RoundImageView.swift in Sources */,
 				A9377B03201645950040E101 /* UpdateService.swift in Sources */,
 				A9A8021C200F2DA400EA1629 /* RoundedShadowView.swift in Sources */,
