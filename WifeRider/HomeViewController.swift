@@ -19,11 +19,14 @@ class HomeViewController: UIViewController,MKMapViewDelegate{
     
     var delegate: CenterViewControllerDelegate?
     
+    @IBOutlet weak var centerMapButton: UIButton!
     var manager:CLLocationManager?
     
     var regionRadius:CLLocationDistance = 1000
     
     let revealingSplashView = RevealingSplashView(iconImage: UIImage(named: "launchScreenIcon")!, iconInitialSize: CGSize(width: 80, height: 80), backgroundColor: UIColor.white)
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -47,6 +50,7 @@ class HomeViewController: UIViewController,MKMapViewDelegate{
     }
     @IBAction func centerMapButton(_ sender: UIButton) {
         centerMapOnUserLocation()
+        centerMapButton.fadeTo(alphaValue: 0, withDuration: 0.2)
     }
     
     @IBAction func actionBtnWasPressed(_ sender: Any) {
@@ -127,6 +131,25 @@ extension HomeViewController:CLLocationManagerDelegate {
     }
 }
 
+//extension HomeViewController: UITextFieldDelegate{
+//    func textFieldDidBeginEditing(_ textField: UITextField) {
+//
+//    }
+//
+//    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+//        <#code#>
+//    }
+//
+//    func textFieldDidEndEditing(_ textField: UITextField) {
+//        <#code#>
+//    }
+//
+//    func textFieldShouldClear(_ textField: UITextField) -> Bool {
+//        <#code#>
+//    }
+//}
+
+
 extension HomeViewController{
     func mapView(_ mapView: MKMapView, didUpdate userLocation: MKUserLocation) {
         UpdateService.instance.updateUserLocation(withCoordinate: userLocation.coordinate)
@@ -142,5 +165,9 @@ extension HomeViewController{
             return view
         }
         return nil
+    }
+    
+    func mapView(_ mapView: MKMapView, regionWillChangeAnimated animated: Bool) {
+        centerMapButton.fadeTo(alphaValue: 1.0, withDuration: 0.2)
     }
 }
